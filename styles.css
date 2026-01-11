@@ -1,7 +1,10 @@
 /* Make body a flex container */
+
 body {
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
 }
 
 /* Make main a flex container */
@@ -21,4 +24,54 @@ article {
 aside {
   flex: 1;
   overflow-y: auto;
+}
+
+/* General page styling */
+body {
+  background-color: #f5f5f5;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header styling */
+header {
+  background-color: #222;
+  padding: 10px;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Article styling (allowed to experiment here) */
+article {
+  padding: 20px;
+  line-height: 1.6;
+}
+
+article h1,
+article h2,
+article h3 {
+  color: #333;
+}
+
+/* Aside styling */
+aside {
+  background-color: #eaeaea;
+  padding: 10px;
+}
+
+/* Footer styling */
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 10px;
 }
